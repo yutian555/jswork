@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<meta itemprop="image" content="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/share.png">
+		<title>一人之下手游今日上线-官方下载站-腾讯游戏</title>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+		<link rel="stylesheet" href="css/certify.css">
+		<script src="js/swiper.min.js"></script>
+		<!-- <script src="js/donghua.js"></script> --> 
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.page-bg{
+				position: relative;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: auto;
+			}
+			.bg_main{
+				position: relative;
+				width: 100%;
+				height: 4000px;
+				background: url(img/bg-main.jpg) no-repeat 50% 0;
+			}
+			.bg_top{
+				position: relative;
+				width: 100%;
+			}
+			.bg_center{
+				position: relative;
+				width: 100%;
+			}
+			.bg_bottom{
+				position: relative;
+				width: 100%;
+				height: 2230px;
+			}
+			.jijie{
+				width: 116px;
+				height: 469px;
+				position: absolute;
+				top: 200px;
+				left: 1550px;
+			}
+			.off{
+				opacity: 0;
+			}
+				
+			.on{
+				opacity: 1;
+			}
+			.guangzhu{
+				position: absolute;
+				left: 80px;
+				top: 250px;
+			}
+			.renzhe{
+				position: absolute;
+				top: 350px;
+				left: 90px;
+				list-style: none;
+			}
+			.renzhe li{
+				margin-left:80px ;
+			}
+			.zhengka{
+				color: black;
+				margin-top: 10px;
+				font-family: "zapf dingbats";
+			}
+			.zhong{
+				height: 1037px;
+			}
+			.zhong_lq{
+				position: absolute;
+				left: 120px;
+				top: 700px;
+			}
+			.zhong_yq{
+				position: absolute;
+				left: 500px;
+				top: 700px;
+				animation: yaoqing 0.2s infinite ;
+			}
+			.float-right{
+				padding-top: 250px;
+				
+			}
+			.float-left{
+				width: 800px;
+				height: 1323px;
+				padding-top: 600px;
+			}
+.test{
+	position: absolute;
+	right: 450px;
+	top: 60px;
+}
+
+
+.yiren{
+height: 100px;
+position: relative;
+bottom: 80px;
+	background: url(img/slogan-txt.png) no-repeat center;
+}
+.d-inline-flex{
+	padding-left: 60px;
+	padding-top:20px ;
+	float:left;
+}
+.d-inline-flex li{
+	width: 122px;
+	margin-right: 30px;
+}
+.d-inline-flex li img{
+	width: 100%;
+}
+.tit{
+	background: url(img/tit1.png) no-repeat center/cover;
+	width: 257px;
+	height: 44px;
+	margin: 28px auto 15px;
+}
+.tip-tit{
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+.name{
+	color: white;
+	font-weight: bold;
+	margin-top:10px ;
+}
+.row{
+	margin-top: -100px;
+	padding-left: 300px;
+	display: flex;
+	align-items:center;
+	background-color: #000000;
+}	
+.btn-receive{
+	width: 273px;
+	height: 86px;
+	background: url(img/btn-receive.png) no-repeat center/cover;
+	
+}
+.btn-play{
+	width: 80px;
+	height: 80px;
+	/* background: url(img/btn-player.png) no-repeat center/cover; */
+	position: absolute;
+	left: 50%;
+	top: 450px;
+	margin-left: 300px;
+	animation:myplay 2s linear infinite;
+}
+.guanf{
+	position: absolute;
+	top: 20px;
+	left: 1500px;
+}
+.guanw{
+	position: absolute;
+	top: 20px;
+	left: 1630px;
+}
+.h5{
+	position: absolute;
+	top: 40px;
+	left: 1340px;
+}
+a {
+	font-weight: bold;
+}
+p{
+	font-weight: bold;
+}
+.icon{
+	position: absolute;
+	top: 20px;
+	left: 230px;
+}
+.erweima{
+	position: absolute;
+	float: left;
+	top: 290px;
+	left: 120px;
+}
+.xian{
+	background: url(img/top-code-line.png) no-repeat;
+	width: 160px;
+	height: 20px;
+	position: absolute;
+	top: -10px;
+	animation: erweima 2s linear infinite;
+}
+.text-justify{
+	width: 30px;
+	position: absolute;
+	top: 280px;
+	left: 300px;
+	font-size: 20px;
+}
+.xzlj{
+	position: absolute;
+		left: 115px;
+	top: 500px;
+}
+	.xzlj a{
+		width: 195px;
+		height: 55px;
+		display: block;
+		margin: 12px;
+	}
+.ios{
+	background: url(img/d-ios.png) no-repeat center/cover;
+}
+.android{
+	background: url(img/d-android.png) no-repeat center/cover;
+}
+.pc-simulator{
+	background: url(img/d-pc-simulator.png) no-repeat center/cover;
+}
+@keyframes myplay{
+	10%{
+		transform: scale(0.5);
+	}
+	30%{
+		transform: scale(0.9);
+	}
+	50%{
+		transform: scale(0.5);
+	}
+	100%{
+		transform: scale(0.9);
+	}
+}
+
+@keyframes erweima{
+	50%{
+		margin-top:160px;
+	}
+}
+
+@keyframes yaoqing{
+	0%{
+		transform: rotate(4deg);
+	}
+	50%{
+		transform: rotate(-4deg);
+	}
+	100%{
+		transform: rotate(4deg);
+	}
+
+}
+.yutian-content{
+	width: 1920px;
+	transform-origin: 0 0 0 ;
+}
+.yutian{
+	position: relative;
+	overflow: hidden;
+}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="yutian" style="height:;">
+		<div class="yutian-content"">
+	<div class="page-bg">
+		<div class="bg_top"><!--背景图-上-->
+		<img class="img-fluid" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/bg-kv.jpg?v=123" alt="官方图片">
+			 <img class="card-img-overlay" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/kv-logo.png?v=123" style="width: 12%;"/>
+			 
+			 <div class="btn btn-dark btn-lg guanf" οnclick="attention()"><!--按钮-->
+			 	官方论坛
+			 	</div>
+			 	<div class="btn btn-dark btn-lg guanw" οnclick="attention()"><!--按钮-->
+			 		进入官网
+			 </div>
+				 
+				 <div class="h5"><!--登录-->
+				 	<p>亲爱的，请<a href="#" οnclick="attention()">登录</a></p>
+				 </div>
+				
+				<div class="erweima"><!--二维码-->
+							<img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/top-code.png">
+							<div class="xian"></div>
+							</div>
+							<p class="text-justify">扫码下载游戏</p>
+							<img class="icon" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/kv-icon.png"/><!--图标-->	
+							<a href="#" οnclick="attention()"><!--播放按钮-->
+								<img class="btn-play"  src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/btn-player.png"/>
+							</a>
+				  <div class="xzlj">
+					  <a href="#" class="ios"></a>
+					  <a href="#" class="android"></a>
+					  <a href="#" class="pc-simulator"></a>
+				  </div>
+				</div>
+				
+				<div class="bg_main">
+					<div class="yiren"></div><!--中标题-->
+			
+					<div class="row animate__animated animate__backInRight"><!--纵向排列-->
+						
+						
+						
+						<div class="title float">
+							<h5 class="tit"></h5>
+							<p class="tip-tit">下载游戏，领取官网下载礼包</p>
+						</div>
+					<ul class="d-inline-flex">
+						<li>
+							<img src="img/lujin.png" alt="物品道具" style="width: 121px; height: 121px;">
+						<p class="name text-center">陆瑾整卡*1</p>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/yrzx/zlkdatasys/images/image/20200523/9ac9fb1fc2ee30a573fda5d7e4393435.png" alt="物品道具"/>
+							<p class="name text-center">
+								张灵玉整卡*1
+							</p>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/yrzx/zlkdatasys/images/image/20200523/20da16c1868bc5a4c3f0c216ddaa83ac.png" alt="物品道具"/>
+							<p class="name text-center">夏禾整卡*1</p>
+						</li>
+						<li>
+							<img src="//game.gtimg.cn/images/yrzx/zlkdatasys/images/image/20200523/bb035836c46f637219ead8a4b0279214.png" alt="物品道具"/>
+							<p class="name text-center">风星瞳整卡*1</p>
+						</li>
+						<li>
+							<img src="img/zhangzhwei.png" alt="物品道具"/ style="width: 121px; height: 121px;">
+							<p class="name text-center">天师·张之维整卡*1</p>
+						</li>
+						</ul>
+						<a href="#" class="btn-receive " οnclick="alert('hello world')"></a>
+					</div>
+					
+							
+						
+					
+			<div class="bg_center"><!--背景图-中-->
+			<img class="w-100 zhong off" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/role.png">
+			<img class="jijie off" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/tit2.png?v=123"/>
+			
+			<p class="guangzhu font-weight-bold" style="font-size: 38px;">
+				[邀 请 你 全 家 即 可 领 取 火 影 忍 者 手 游 终 极 礼 包]
+				</p>
+				<ul class="d-inline-flex renzhe">
+					<li>
+						<img src="img/you.png" />
+						<p class="text-center zhengka">宇智波鼬「新春限定」整卡*1</p>
+					</li>
+					<li>
+						<img src="img/xiaonan.png" />
+					<p class="text-center zhengka">小南「夏日泳装」整卡*1</p>
+					</li>
+				</ul>
+				<a href="#" class="zhong_lq" οnclick="attention()">
+					<img src="img/btn-receive-xs.png" />
+				</a>
+				<a href="#" class="zhong_yq" οnclick="attention()">
+					<img src="img/btn-invite.png" />
+				</a>
+			</div>
+			
+			
+			
+			<div class="bg_bottom"><!--背景图-下-->
+			<img class="float-left off" src="//game.gtimg.cn/images/yrzx/zlkdatasys/images/image/20200523/c6f3f0d8239f2f62aa2f3bbb2cc96f87.png" alt="宝儿姐">
+			<img class=" float-right" src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/tit3.png" alt="异人福利">
+			<div id="certify">
+			<div class="swiper-container">
+			<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/sponsor-img4.jpg" /></div>
+			<div class="swiper-slide"><img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/sponsor-img10.jpg" /></div>
+			<div class="swiper-slide"><img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/sponsor-img7.jpg" /></div>
+			<div class="swiper-slide"><img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/sponsor-img11.jpg" /></div>
+			<div class="swiper-slide"><img src="https://game.gtimg.cn/images/ulink/act/2890/a20200518xz/sponsor-img6.jpg" /></div>
+			</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next "></div>
+			</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</header>
+	
+	<footer></footer>
+	</div>
+	<!-- 新 Bootstrap4 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+	<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+	
+	<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script>
+		var BASE_WIDTH = 1920;
+		var BASE_HEIGHT = 4787;
+		
+		function wrapResize() {
+		    var scaleValue = $(window).width() / BASE_WIDTH
+		    $('.yutian-content').css({
+		        transform: 'scale(' + scaleValue + ')'
+		    })
+		    $('.yutian').css({
+		        height: (scaleValue) * BASE_HEIGHT + 'px'
+		    })
+		}
+		$(function () {
+		    wrapResize()
+		})
+		$(window).resize(function () {
+		    wrapResize()
+		})
+	</script>
+
+	<script src="js/lunbotu.js"></script>
+	<script src="js/donghua.js"></script>
+	</body>
+</html>
